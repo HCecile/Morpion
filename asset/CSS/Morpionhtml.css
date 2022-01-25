@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+}
+header {
+    text-align: center;
+    padding: 5px;
+    font-family: crack;
+    font-size: 70px;
+    color: rgb(221, 235, 248);
+  }
+
+body {
+    background-image: url(https://png.pngtree.com/back_origin_pic/04/00/59/89494ffd181b6f90483f635c9839ef80.jpg);
+    background-size:100%;
+
+}
+main {
+    display: flex;
+    justify-content: center;
+    font-family: crack;
+    font-size: 100px;
+    color: rgb(16, 45, 100);
+}
+
+table {
+margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 170px;
+    border: solid 5px;
+    border-radius: 5%;
+}
+section{
+    background-color: rgb(221, 235, 248);
+    font-family: crack;
+    font-size: 35px;
+    color: rgb(16, 45, 100);
+    text-align: center;
+}
+@font-face {
+    font-family: "crack";
+    src: url(../font/crackvetica/Crackvetica.ttf);
+}
