@@ -12,27 +12,10 @@ let tab = [
 let arrayHtml = document.querySelectorAll(".cell");
 let isWin = false;
 
-
-/*function play(element) {
- 
- if(element.innerHTML ===""){
-  if (lap % 2 != 0) {
-    element.innerHTML = "X";
-  } else {
-    element.innerHTML = "O";
-  }}
-  win();
-  if (isWin === false){
-  checkTie();
-}
-  lap++;
-} */
-
-
 function randArray(){
-    //tableau vide qui contiendras tous les index vide de ma grille de jeu
+    //tableau vide qui contiendra tous les index vides de ma grille de jeu
     let cpuArray = []
-    // je parcour ma grille de jeu
+    // je parcours ma grille de jeu
     for(let i = 0; i < arrayHtml.length; i++){
         // si la case est vide 
         if(arrayHtml[i].innerHTML == ''){
@@ -40,9 +23,9 @@ function randArray(){
             cpuArray.push(i)
         }
     }
-    // je crée un variable et je lui affecte un nombre aleatoire entre 0 et la longueur de mon tableau d'index - 1
+    // je crée une variable et je lui affecte un nombre aléatoire entre 0 et la longueur de mon tableau d'index - 1
     let rand = getRandom(0, cpuArray.length -1)
-    // je fais cliquer l'ia sur la case de ma grille qui correspond a une valeur aleatoire de mon tableau d'index
+    // je fais cliquer l'ia sur la case de ma grille qui correspond à une valeur aleatoire de mon tableau d'index
     arrayHtml[cpuArray[rand]].click()
 }
 // la fonction random

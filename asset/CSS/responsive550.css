@@ -1,0 +1,17 @@
+@media (max-width: 550px) {
+  header {
+    padding: 20px;
+    font-size: 60px;
+  }
+  main {
+    font-size: 90px;
+  }
+
+  table {
+    margin-bottom: 20px;
+  }
+  div {
+    height: 120px;
+    width: 120px;
+  }
+}
